@@ -83,6 +83,10 @@ public class Menu {
 			Exe5 exercicio5 = new Exe5(reader);
 			exercicio5.handle();
 			break;
+		case 6:
+			Exe6 exercicio6 = new Exe6(reader);
+			exercicio6.handle();
+			break;
 		}
 	}
 	
